@@ -3,7 +3,7 @@
    {
         define('SERVER', 'localhost');
         define('USER', 'root');
-        define('PASS', '1212716');
+        define('PASS', '');
         define('DB', 'login');
     
    try
