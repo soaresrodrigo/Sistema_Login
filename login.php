@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+require("conexao/acesso.php");
+$acesso = filter_input(INPUT_POST, "sendLogin");
+$validacao = Acessar($acesso);
+?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -13,7 +18,7 @@
         <article class="login boxshadow">
             <h1>Entrar</h1>
             <form name="formLogin" action="" method="post">
-                
+
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" placeholder="Informe seu nome">
 
