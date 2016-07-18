@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>Entrar</title>
-    <link rel="stylesheet" href="./public/css/login.css">
-    <link rel="stylesheet" href="./public/css/boot.css">
-    <script src="./public/js/jquery.js"></script>
-    <script src="./public/js/main.js"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/boot.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
-    <section class="bg-verde">
+    <section class="container bg-imagem">
         <article class="login boxshadow">
             <h1>Entrar</h1>
             <form name="formLogin" action="" method="post">

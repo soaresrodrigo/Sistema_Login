@@ -52,7 +52,7 @@ a img{border: 0;}
 .fontezero{font-size: 0em !important;}
 
 /*-------------------------- CONTEINERS ------------------------------*/
-.container{ float: left; width: 100%;}
+.container{ float: left; width: 100%; min-height: 100vh;}
 .content{ width: 80%; margin: 0 10%; padding: 40px 0;}
 
 /*CONFIGURAÇÕES DOS HEADERS*/
