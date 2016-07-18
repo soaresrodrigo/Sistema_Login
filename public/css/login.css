@@ -1,0 +1,52 @@
+.login{
+    display: block;
+    border-radius: 5px;
+    position: absolute;
+    width: 30%;
+    min-height: 250px;
+    height: 100%;
+    max-height: 250px;
+    margin: 10% 35%;
+    clear: both;
+    background: rgba(239,239,242,.9);
+    padding: 1%;
+    font-family: monospace;
+}
+
+.login h1{
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 2.3em;
+    margin-bottom: 5%;
+    color: #666;
+}
+
+.login > form > label{
+    display: none;
+    position: fixed;
+    margin:-20px 0 0 30px;
+
+}
+
+.login > form > input[type="text"], input[type="password"]{
+    display: block;
+    color: #444;
+    width: 85%;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    margin: 25px auto;
+    opacity: .7;
+}
+.login > form > input[type="text"]:focus , input[type="password"]:focus{
+    transition: .3s;
+    opacity: 1;
+    background-color: #fff;
+}
+.login > form > input[type="submit"]{
+    display: block;
+    width: 85%;
+    position: relative;
+    margin: 30px auto 0 auto;
+    color: white;
+}

@@ -1,0 +1,142 @@
+/*------------------------------------------------- RESET DO CSS -----------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+*, *:before, *:after
+{
+    margin: 0;
+    padding: 0;
+    outline: 0; /*Frescura da borda*/
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2; /*Espaçamento das palavras*/
+    letter-spacing: 0em; /*Espaçamento de cada letra*/
+    box-sizing: border-box; /*Alinhar a borda do padding*/
+    font-family: 'Ubuntu', sans-serif;    
+}
+
+/*HIERARQUIAS DOS Hs*/
+h1{font-size: 2em;font-weight: 300;}
+h2{font-size: 1.8em;font-weight: 400;}
+h3{font-size: 1.5em;font-weight: 500;}
+ul{list-style: none;}
+small{font-size: 0.75em; color: #555;}
+a{text-decoration: none;}
+a img{border: 0;}
+
+
+/*------------------------------ PALETA DOS BACKGROUNDS -----------------------------------------------------*/
+
+/*BACKGROUNDS CLAROS*/
+.bg-azul{background-color: #1B95E0; color: #fff;}
+.bg-claro{background-color: #CCD9DD; color: #302f31;}
+.bg-ciano{background-color: #1b95e0; color: #302f31;}
+.bg-branco{background-color: #F8F8F8; color: #3c3c3c;}
+.bg-azulclaro{background-color: #CCD9DD; color: #fff;}
+.bg-roxoclaro{background-color: #9283A9; color: #fff;}
+.bg-verdeclaro{background-color: #42BEA7; color: #fff;}
+.bg-rosa{background-color: #4ECDC4;}
+.bg-cinza{background-color: #eeeef2; color:#878787;}
+.bg-alice{background-color: AliceBlue; color: #878787;}
+
+/*BACKGROUNDS ESCUROS*/
+.bg-laranja{background-color: #ffd49a; color: #fff;}
+.bg-verde{background-color:#79BD9A !important; color: #fff;}
+.bg-manjaro{background-color: #2ECC71; color: #fff;}
+.bg-vermelho{background-color: #FE4365; color: #fff;}
+.bg-escuro{background-color: #333; color:#fff;}
+.bg-apple{background-color:#f2f2f2;color:#878787;}
+
+/*BACKGROUNDS IMAGENS*/
+.bg-imagem{background: url(../img/imagem.jpg) fixed no-repeat ; background-size: cover;}
+
+/*--------------------- PALETA DE FONTES -------------------------*/
+.fontezero{font-size: 0em !important;}
+
+/*-------------------------- CONTEINERS ------------------------------*/
+.container{ float: left; width: 100%;}
+.content{ width: 80%; margin: 0 10%; padding: 40px 0;}
+
+/*CONFIGURAÇÕES DOS HEADERS*/
+.tituloconfig{ float: left; width: 100%; margin-bottom: 30px; text-align: center;}
+.tituloconfig h1{color: #1B95E0; font-size: 2.4em; margin-bottom: 10px; text-shadow: 2px 1px #cecece}
+.tituloconfig p{ font-size: 1.3em; font-weight: 300; color: #999;}
+.tituloconfig hr{border: .5px #ebebeb solid; width: 100%; margin-top: 1%;}
+
+
+/*------------------------------------------------- HELPERS ----------------------------------------------------*/
+.desfoque{backdrop-filter:blur(5px);}
+.textshadow{text-shadow: 1px 1px 0 #ccc;}
+.boxshadow{ box-shadow: 0px 3px 3px 0px rgba(0,0,0,.3);}
+.radius{border-radius: .5em;}
+
+.last{margin-right: 0 !important;}
+.clear{clear: both;}
+
+/*Alinhamento de Texto*/
+.al-left{text-align: left;}
+.al-rigth{text-align: right;}
+.al-center{text-align: center;}
+
+/*Float*/
+.fl-left{float: left !important;}
+.fl-right{float: right !important;}
+.fl-none{float: none !important;}
+.fl-center{margin: 0 auto;}
+
+/*Margin*/
+.mr-left{margin-left: 10px;}
+.mr-right{margin-right: 10px;}
+.mr-auto{margin: auto;}
+
+/*Display*/
+.ds-block{display: block;}
+.ds-inblock{display: inline-block;}
+.ds-inline{display: inline;}
+.ds-none{display: none;}
+
+/*Box*/
+.box{width: auto; float: left;}
+.box-line{float: left; width: 100%;}
+
+.box-pequeno{width: 22.75%; margin-right: 3%;}
+.box-medio{width: 30%; margin-right: 5%;}
+.box-largo{width: 46.5%; margin-right: 7%;}
+.box-gigante{width: 100%; margin: 0;}
+
+/*video*/
+.video{width: 100%; margin: 0;}
+
+.video-pequeno{width: 40%; margin: 0 30%;}
+.video-medio{width: 60%; margin: 0 20%;}
+.video-largo{width: 80%; margin: 0 10%;}
+
+/*BOTÕES*/
+.botao
+{
+    display: inline-block;
+    padding: 7px 15px;
+    color: #fff;
+    background: #333;
+    border: 1px solid #222;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow:0 2px 2px 0 rgba(0,0,0,.1);
+}
+.botao:hover{text-decoration: none !important;  box-shadow:0 4px 4px 0 rgba(0,0,0,.1);}
+.botao-grande{font-size: 1.8em; padding: 20px 40px;}
+
+/*Cores do Botao*/
+.botao-verde{background-color: #42BEA7 !important; border-color: #4b9157 !important;}
+.botao-verde:hover{background-color: #6dcbba !important; border-color: #59aa66 !important;}
+.botao-cinza{background-color: #a9a9a9; border-color:#eee; }
+.botao-cinza:hover{background-color: #c1c1c1; border-color:#9f9f9f; }
+.botao-azul{background-color: #1B95E0 !important; border-color: #4e99b7 !important;}
+.botao-azul:hover{background-color: #64c3ea !important; border-color: #59aed1 !important;}
+.botao-amarelo{background-color: #d1be5a; border-color: #59aa66;}
+.botao-amarelo:hover{background-color: #d1bd59; border-color: #d1be5a;}
+.botao-vermelho{background-color: #b26a6a; border-color: #995b5b;}
+.botao-vermelho:hover{background-color: #cc7979; border-color: #b26a6a;}
+.botao-preto{background-color: #302f31; color: #1B95E0;}
+.botao-preto:hover{background:#666666; border-color: #333333; color: #00b4ff;}
+
+/*IC0NES*/
+.icone{padding-left: 30px; background-position: center left; background-repeat: no-repeat; background-size: auto 100%;}
